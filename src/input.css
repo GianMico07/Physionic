@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply font-montserrat tracking-normal bg-[#F6F6F6]
+    }
+}
+
+.header .toggleMenu{
+    transform: scaleX(-1)
+}
+
+.header .toggleMenu span{
+    height: .2rem;
+    width: 2rem;
+    @apply bg-gray block mb-1 mt-1
+}
+
+.header .toggleMenu span:nth-child(2){
+    height: .2rem;
+    width: 1.5rem;
+    @apply bg-gray block mb-1
+}
+
+.header .toggleMenu span:nth-child(3){
+    height: .2rem;
+    width: 1rem;
+    @apply bg-gray block
+}
+
+.headerMobileNav{
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.headerMobileNav.active {
+    max-height: 500px;
+    transition: all .5s ease;
+}
+
+
+.form input, label,select{
+    @apply block text-[14px]
+}
+
+.form label{
+    @apply font-semibold mb-2
+}
+
+.form input,select{
+    @apply border-[#E6E6E6] border-[1px] p-2 mb-2 w-[100%] bg-[#F9F9F9]
+}
+
+
+.table-cont .card .case h2{
+        @apply font-semibold
+}
+
+.table2-cont .card{
+    @apply bg-white
+}
+
+.table2-cont .card .star i{
+    @apply text-[#F3CD03]
+}
+
+.table3-cont .card h5{
+    @apply font-semibold
+}
+
+.table3-cont .card {
+    @apply bg-white p-6
+}
+
+.table3-cont .card p{
+    @apply font-semibold text-gray
+}
+
+.table4-cont h3{
+    @apply font-bold text-[24px] my-[1rem]
+}
+
+.table4-cont h5{
+    @apply font-bold text-[16px]
+}
+
+.table4-cont .card h2{
+    @apply font-bold text-primary text-[40px]
+}
+
+.table4-cont .card p{
+    @apply font-semibold
+}
+
+.subscribe-wrapper .email-form input{
+    @apply py-[1rem] px-[.5rem]
+}
+
+.subscribe-wrapper .email-form button{
+    @apply py-[1rem] px-[1rem] absolute right-0 text-white
+}
+
+.footer-wrapper .links h3{
+    @apply font-bold text-[24px]
+}
+
+.footer-wrapper .links p{
+    @apply text-gray text-[14px] py-[1rem]
+}
+
+.footer-wrapper .soc-media i{
+    @apply text-primary text-[28px]
+}
