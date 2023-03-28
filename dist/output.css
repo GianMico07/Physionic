@@ -528,12 +528,6 @@ body {
   padding-left: 1rem;
 }
 
-@media (min-width: ) {
-  .container {
-    max-width: ;
-  }
-}
-
 @media (min-width: 600px) {
   .container {
     max-width: 600px;
@@ -670,10 +664,6 @@ body {
   width: 320px;
 }
 
-.w-\[360px\] {
-  width: 360px;
-}
-
 .w-\[400px\] {
   width: 400px;
 }
@@ -730,6 +720,10 @@ body {
   border-radius: 15px;
 }
 
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -744,10 +738,6 @@ body {
 
 .rounded-sm {
   border-radius: 0.125rem;
-}
-
-.rounded-\[5px\] {
-  border-radius: 5px;
 }
 
 .rounded-br-md {
@@ -831,6 +821,10 @@ body {
   padding: 0.75rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-7 {
   padding: 1.75rem;
 }
@@ -841,10 +835,6 @@ body {
 
 .p-\[2\.25rem\] {
   padding: 2.25rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-5 {
@@ -877,19 +867,14 @@ body {
   padding-bottom: 1.25rem;
 }
 
-.py-\[4rem\] {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-\[4rem\] {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .text-left {
@@ -921,12 +906,12 @@ body {
   font-size: 24px;
 }
 
-.text-huge {
-  font-size: clamp(3rem, 6vw, 4rem);
-}
-
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-huge {
+  font-size: clamp(3rem, 6vw, 4rem);
 }
 
 .font-\[700\] {
@@ -953,6 +938,11 @@ body {
   line-height: 20px;
 }
 
+.text-\[\#252B42\] {
+  --tw-text-opacity: 1;
+  color: rgb(37 43 66 / var(--tw-text-opacity));
+}
+
 .text-gray {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
@@ -963,19 +953,9 @@ body {
   color: rgb(35 166 240 / var(--tw-text-opacity));
 }
 
-.text-secondary {
-  --tw-text-opacity: 1;
-  color: rgb(37 43 66 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#252B42\] {
-  --tw-text-opacity: 1;
-  color: rgb(37 43 66 / var(--tw-text-opacity));
 }
 
 .bg-blend-multiply {
@@ -1148,8 +1128,8 @@ body {
     width: 100%;
   }
 
-  .md\:w-\[438px\] {
-    width: 438px;
+  .md\:w-\[360px\] {
+    width: 360px;
   }
 
   .md\:w-\[470px\] {
@@ -1158,10 +1138,6 @@ body {
 
   .md\:w-\[600px\] {
     width: 600px;
-  }
-
-  .md\:w-\[360px\] {
-    width: 360px;
   }
 
   .md\:grid-cols-3 {

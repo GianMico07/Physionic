@@ -33,7 +33,6 @@ module.exports = {
       center: true,
       padding: '1rem',
       screens: {
-        xs: '',
         sm: '600px',
         md: '728px',
         lg: '984px',
