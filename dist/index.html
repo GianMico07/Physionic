@@ -10,51 +10,53 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header py-5">
-        <div class="container">
-            <div class="wrapper flex justify-between items-center">
-                <div class="headerLogo">
-                    <h2 class="text-secondary font-[700] text-[24px]">Physonic</h2>
+    
+
+    <section class="banner bg-gray bg-left-top bg-no-repeat bg-cover bg-blend-multiply bg-[url('./img/hero-cover.jpg')] text-center">
+        <div class="header py-7 bg-white md:bg-transparent">
+            <div class="container">
+                <div class="wrapper flex justify-between items-center">
+                    <div class="headerLogo">
+                        <h2 class="text-[#252B42] md:text-white font-[700] text-[24px]">Physionic</h2>
+                    </div>
+                    <div class="headerNav hidden md:block">
+                        <ul class="flex gap-6 items-center text-white">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="getAQuote hidden md:block">
+                        <a class="bg-primary p-4 rounded-[5px] text-white font-semibold text-[14px]" href="">Get A Quote Now</a>
+                    </div>
+                    
+                    <div class="flex gap-5 md:hidden">
+                        <div class="searchAndCard flex gap-6">
+                            <i class="fa-solid fa-magnifying-glass text-2xl text-gray"></i>
+                            <i class="fa-solid fa-cart-shopping text-2xl text-gray"></i>
+                        </div>
+                        <div class="toggleMenu relative text-gray cursor-pointer">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="headerNav hidden md:block">
-                    <ul class="flex gap-4 items-center">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Contact</a></li>
+    
+                <div class="headerMobileNav">
+                    <ul class="text-center text-[1.3rem] font-semibold text-gray py-5">
+                        <li><a class="block p-3" href="#">Home</a></li>
+                        <li><a class="block p-3" href="#">Product</a></li>
+                        <li><a class="block p-3" href="#">Pricing</a></li>
+                        <li><a class="block p-3" href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="getAQuote hidden md:block">
-                    <a class="bg-primary p-3 rounded-md text-white font-semibold" href="">Get A Quote Now</a>
-                </div>
-                
-                <div class="flex gap-5 md:hidden">
-                    <div class="searchAndCard flex gap-6">
-                        <i class="fa-solid fa-magnifying-glass text-2xl text-gray"></i>
-                        <i class="fa-solid fa-cart-shopping text-2xl text-gray"></i>
-                    </div>
-                    <div class="toggleMenu relative text-gray cursor-pointer">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="headerMobileNav">
-                <ul class="text-center text-[1.3rem] font-semibold text-gray py-5">
-                    <li><a class="block p-3" href="#">Home</a></li>
-                    <li><a class="block p-3" href="#">Product</a></li>
-                    <li><a class="block p-3" href="#">Pricing</a></li>
-                    <li><a class="block p-3" href="#">Contact</a></li>
-                </ul>
             </div>
         </div>
-    </div>
 
-    <section class="banner bg-gray bg-left-top bg-no-repeat bg-cover bg-blend-multiply bg-[url('./img/hero-cover.jpg')] text-center py-10">
         <div class="container">
-            <div class="bannerWrapper lg:flex lg:justify-between lg:items-center lg:h-[100vh]">
+            <div class="bannerWrapper lg:flex lg:justify-between lg:items-center lg:h-[100vh] py-10">
                 <div class="lg:text-left">
                     <h1 class="text-huge text-white font-semibold leading-[1.4] lg:font-bold lg:w-[500px]" >Meet the Best Hospital</h1>
                     <p class="text-white my-8 lg:w-[370px] lg:my-6 text-[20px]">We know how large objects will act, but things on a small scale.</p>
@@ -62,7 +64,7 @@
                     <a class="text-white mb-3 font-semibold px-5 py-3 border-white border-[1px] rounded-full inline-block" href="">Learn More</a>
                 </div>
 
-                <div class="form bg-white text-left rounded-lg p-[2.25rem] lg:mt-0 mt-10">
+                <div class="form bg-white text-left rounded-lg p-[2.25rem] lg:mt-0 mt-10 md:w-[360px]">
                     <h3 class="font-bold text-[1.3rem] mb-6">Book Appointment</h3>
 
                     <label for="">Name</label>
@@ -78,7 +80,7 @@
 
                     <label for="">Time*</label>
                     <select name="" id="">
-                        <option value="">Please Select</option>
+                        <option value="">4:00 Available</option>
                     </select>
 
                     <button class="bg-primary text-white p-3 w-[100%] rounded-sm text-[14px] font-semibold mt-4">Book Appointment</button>
@@ -227,7 +229,7 @@
             <div class="wrapper text-center">
                 <div class="lm-text w-[320px] md:w-[100%] mx-auto my-[5rem]">
                     <h2 class="text-huge font-bold">FAQ</h2>
-                    <p class="text-[14px] leading-[20px] mb-[2rem] md:w-[470px] mx-auto">Problems trying to resolve 
+                    <p class="text-[14px] leading-[20px] mb-[2rem] md:w-[470px] mx-auto ">Problems trying to resolve 
                     the conflict between the 
                     two major realms of Classical 
                     physics: Newtonian mechanics </p>
@@ -240,7 +242,7 @@
                             <div class="desc ">
                                 <h5 class="mb-2">the quick fox jumps over 
                                     the lazy dog</h5>
-                                    <p>Things on a very small scale 
+                                    <p class="">Things on a very small scale 
 behave like </p>
                             </div>   
                         </div> 
@@ -504,16 +506,19 @@ behave like </p>
     <section class="subscribe bg-[#252B42] hidden md:block">
         <div class="container">
             <div class="subscribe-wrapper py-[4rem] px-[2rem] flex justify-between">
-                <div class="md:w-[438px]">
-                    <h3 class="font-bold text-[24px] text-white ">Get in Touch</h3>
-                    <p>The gradual accumulation of information about atomic and 
+                <div class="md:w-[600px]">
+                    <h3 class="font-bold text-[40px] text-white ">Get in Touch</h3>
+                    <p class="text-white">The gradual accumulation of information about atomic and 
                         small-scale behaviour during the first quarter of the 20th </p>
                 </div>
-                
-                <div class="email-form bg-white relative text-left rounded-md mt-[1.5rem]">
-                    <input type="text" name="" id="" placeholder="Your Email">
-                    <button class="bg-primary rounded-tr-md rounded-br-md">Subscribe</button>
+
+                <div class="">
+                    <div class="email-form bg-white relative text-left rounded-md mt-[1.5rem] w-[400px]">
+                        <input type="text" name="" id="" placeholder="Your Email" class="w-[100%] rounded-tr-md rounded-br-md">
+                        <button class="bg-primary rounded-tr-md rounded-br-md">Subscribe</button>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </section>

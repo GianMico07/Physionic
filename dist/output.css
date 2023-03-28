@@ -670,8 +670,12 @@ body {
   width: 320px;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
+.w-\[360px\] {
+  width: 360px;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .cursor-pointer {
@@ -740,6 +744,10 @@ body {
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
 }
 
 .rounded-br-md {
@@ -835,6 +843,10 @@ body {
   padding: 2.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -870,6 +882,16 @@ body {
   padding-bottom: 4rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -901,6 +923,10 @@ body {
 
 .text-huge {
   font-size: clamp(3rem, 6vw, 4rem);
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-\[700\] {
@@ -945,6 +971,11 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#252B42\] {
+  --tw-text-opacity: 1;
+  color: rgb(37 43 66 / var(--tw-text-opacity));
 }
 
 .bg-blend-multiply {
@@ -1104,17 +1135,7 @@ body {
   color: rgb(35 166 240 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1127,12 +1148,20 @@ body {
     width: 100%;
   }
 
+  .md\:w-\[438px\] {
+    width: 438px;
+  }
+
   .md\:w-\[470px\] {
     width: 470px;
   }
 
-  .md\:w-\[438px\] {
-    width: 438px;
+  .md\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .md\:w-\[360px\] {
+    width: 360px;
   }
 
   .md\:grid-cols-3 {
@@ -1146,13 +1175,18 @@ body {
   .md\:items-center {
     align-items: center;
   }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:visible {
-    visibility: visible;
-  }
-
   .lg\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -1162,16 +1196,8 @@ body {
     margin-top: 0px;
   }
 
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:h-\[100vh\] {
